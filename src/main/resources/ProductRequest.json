@@ -1,0 +1,24 @@
+[
+  {
+    "id": "e85ef2d5-7ee6-4f4a-b7e3-18735249133d",
+    "title": "Sample Product",
+    "description": "This is a sample product.",
+    "image": "sample.jpg",
+    "categoryRequest": {
+      "name": "Sample Category"
+    },
+    "currency": "USD",
+    "price": 19.99
+  },
+  {
+    "id": "e85ef2d5-7ee6-4f4a-b7e3-18735249133d",
+    "title": "Sample Product",
+    "description": "This is a sample product.",
+    "image": "sample.jpg",
+    "categoryRequest": {
+      "name": "Sample Category"
+    },
+    "currency": "USD",
+    "price": 19.99
+  }
+]
