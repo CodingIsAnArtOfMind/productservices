@@ -1,6 +1,6 @@
 package com.development.productService.model;
 
-import jakarta.persistence.Entity;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,4 +14,6 @@ import lombok.Setter;
 public class Price extends  BaseModel{
     String currency;
     double price;
+    @OneToOne(mappedBy = "price", cascade = CascadeType.ALL)
+    private Product product;
 }
